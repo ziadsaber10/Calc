@@ -1,0 +1,22 @@
+.calculator {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+}
+
+#display {
+    height: 60px;
+    font-size: 1.8rem;
+    border-radius: 10px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    .calculator {
+        padding: 1rem;
+    }
+    #display {
+        font-size: 1.5rem;
+        height: 50px;
+    }
+}
